@@ -1,6 +1,6 @@
 <template>
   <el-card shadow="never" class="border-0">
-    <!-- 新增|刷新 -->
+    <!-- 新增|刷新2 -->
     <ListHeader @create="handleCreate" @refresh="getData"/>
 
     <el-table :data="tableData" stripe style="width: 100%" v-loading="loading">
